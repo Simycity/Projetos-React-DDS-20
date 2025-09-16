@@ -18,8 +18,8 @@ export const TemplateExpressions = () => {
     <div>
       <h2>Hola amiguito, mi nombre és {nome}</h2>
       <p>
-        E, trafico {nome.droga}, em peso de {peso.droga} o valor é R$
-        {valor.droga} de cor {cor.droga}
+        E, trafico {droga.nome}, em peso de {droga.peso} o valor é R$
+        {droga.valor} de cor {droga.cor}
       </p>
     </div>
   );
