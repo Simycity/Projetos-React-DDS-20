@@ -3,6 +3,7 @@ import React from "react";
 const CardCantor = ({ id, name, gender, thebest, position }) => {
   return (
     <div>
+      <h3>O id do cantor é: {id}</h3>
       <h3>O nome do cantor é: {name}</h3>
       <h3>Seu gênero musical é: {gender}</h3>
       <h3>Sua posição no ranking global é: {position}</h3>
